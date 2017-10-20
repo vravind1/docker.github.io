@@ -370,7 +370,7 @@ used for control and management traffic and 192.168.0.1 should be used for
 traffic relating to services.
 
 ```bash
-$ docker swarm init --advertise-addr 10.0.0.1 --datapath-addr 192.168.0.1
+$ docker swarm init --advertise-addr 10.0.0.1 --data-path-addr 192.168.0.1
 ```
 
 This example joins the swarm managed by host `192.168.99.100:2377` and sets the
